@@ -1,0 +1,46 @@
+/* imagen del inicio y contacto*/
+.bg-imagen {
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+  margin-top: 5.4rem;
+  padding-bottom: 4rem;
+}
+
+/* texto del bienvenido de inicio y contacto*/
+.bienvenido {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  top: 40%;
+  font-size: clamp(2.8rem, 10vw, 6rem);
+  animation: intro 3s ease-in-out;
+}
+
+@keyframes intro {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@media only screen and (max-width:1200px) {
+  .bg-imagen {
+    background-attachment: scroll;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .bienvenido {
+    top: 50%;
+  }
+}

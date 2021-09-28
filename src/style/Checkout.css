@@ -1,0 +1,62 @@
+.container-checkout {
+    display: grid;
+    justify-content: center;
+    align-items: flex-start;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem;
+    min-height: 70vh;
+}
+
+/* los imagenes del carrito checkout */
+.imagen-cart {
+    width: 20%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    padding: 0.5rem;
+}
+
+/* titulo del plato en carrito checkout */
+.cart-titulo {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    justify-content: flex-start;
+}
+
+/* cantidad del plato en carrito checkout */
+.cart-cantidad {
+    padding: 7px;
+}
+
+/* buton del carrito plus y menos */
+.btn-cart {
+    border: 1px solid #9a1d1f;
+    width: 15px;
+    background-color: #fff;
+    border-radius: 2px;
+}
+
+/* tarjeta en carrito */
+.tarjeta-container {
+    margin: 1rem;
+}
+
+@media only screen and (max-width:789px) {
+
+    td,
+    table {
+        display: block;
+        overflow-x: auto;
+    }
+
+    .container-checkout {
+        grid-template-columns: 1fr;
+    }
+}

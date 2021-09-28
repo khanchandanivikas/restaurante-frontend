@@ -1,0 +1,70 @@
+.formulario-contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    width: 45%;
+    height: auto;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    padding-top: 1rem;
+    box-shadow: 0px 5px 10px rgb(0, 0, 0, 0.2);
+}
+
+/* imagen del telefono */
+.movil,
+.reserva {
+    max-width: 200px;
+}
+
+.reserva {
+    max-width: 150px;
+}
+
+/* todos los inputs del formulario del contacto y reservas*/
+.form {
+    border: 1px solid #9a1d1f;
+    height: 2.5rem;
+    width: 77%;
+    padding: 5px;
+    outline: none;
+}
+
+/* los opciones del formulario del contacto y reservas*/
+select {
+    border: 1px solid #9a1d1f;
+    height: 2.5rem;
+    width: 77%;
+    padding: 5px;
+}
+
+/* formulario del datos personales */
+.formulario-datos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+@media only screen and (max-width: 750px) {
+    .formulario-contacto {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 751px) and (max-width: 1024px) {
+    .formulario-contacto {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .movil {
+        max-width: 150px;
+    }
+
+    .reserva {
+        max-width: 120px;
+    }
+}

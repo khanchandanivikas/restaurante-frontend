@@ -1,0 +1,51 @@
+/* container del seccion*/
+.about-restaurante {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+/* todos los headings*/
+.headings {
+    font-family: "Dancing Script", cursive;
+    font-size: clamp(2.1rem, 5vw, 3.5rem);
+    color: #9a1d1f;
+    font-weight: 700;
+    margin: 2.5rem;
+}
+
+/* todos los parrafos del texto*/
+.parrafo {
+    color: #444;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+/* imagen del about seccion inicio*/
+.imagen-about {
+    width: 30%;
+}
+
+/* container del parrafo y heading*/
+.texto-about {
+    width: 50%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 480px) {
+    .imagen-about {
+        display: none;
+    }
+
+    .texto-about {
+        width: 100%;
+        padding: 0 3rem;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .headings {
+        margin: 1.5rem;
+    }
+}

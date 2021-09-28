@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  z-index: 1;
+}
+
+button,
+input,
+select {
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}

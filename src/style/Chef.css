@@ -1,0 +1,40 @@
+/* seccion del chef el container*/
+.container-chef {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    background-color: rgb(237, 237, 237);
+    margin-top: 1rem;
+}
+
+/* el parrafo container*/
+.container-chef-mensage {
+    padding: 3rem;
+}
+
+/* firma */
+.chef-firma {
+    width: 6rem;
+    padding: 0.5rem;
+}
+
+/* imagen chef container*/
+.container-chef-imagen {
+    width: 110%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+/* el imagen del chef */
+.chef-imagen {
+    width: 110%;
+}
+
+@media only screen and (max-width: 480px) {
+    .container-chef-imagen {
+        display: none;
+    }
+}

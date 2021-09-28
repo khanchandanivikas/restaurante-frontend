@@ -1,0 +1,29 @@
+/*container del picos de la caja*/
+.pico,
+.pico2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pico {
+    margin-top: -2rem;
+}
+
+.pico2 {
+    margin-top: -5px;
+}
+
+/* las dos imagenes del pico */
+.picoimagen {
+    width: 156px;
+    height: 52px;
+}
+
+/* container del formulario contacto y reservas*/
+.formulario {
+    background-color: rgb(237, 237, 237);
+    margin-top: -2rem;
+    padding-top: 1.8rem;
+    width: 100%;
+}

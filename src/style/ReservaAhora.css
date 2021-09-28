@@ -1,0 +1,46 @@
+.container-book {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: relative;
+}
+
+/* overlay */
+.container-book::after {
+    content: "";
+    position: absolute;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+}
+
+/* button */
+.btn-form {
+    margin: 10px;
+    width: 110px;
+    height: 45px;
+    background-color: #9a1d1f;
+    color: #fff;
+    transition: background 0.3s ease-in-out;
+    position: relative;
+    border: none;
+}
+
+.btn-form:hover {
+    border: solid 1px #9a1d1f;
+    background-color: rgb(252, 250, 250);
+    color: #9a1d1f;
+}
+
+/* encabezado */
+.heading-book {
+  font-size: clamp(1.4rem, 2.5vw, 8rem);
+}

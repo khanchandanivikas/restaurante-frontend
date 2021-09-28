@@ -1,0 +1,51 @@
+.container-paneles {
+    display: flex;
+    margin-top: 5.5rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.panel {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    flex: 0.9;
+    height: 80vh;
+    margin: 10px;
+    transition: flex 0.7s ease-in;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.panel-active {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    flex: 3;
+    height: 80vh;
+    margin: 10px;
+    transition: flex 0.7s ease-in;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.panel-heading-active {
+    color: #fff;
+    transform: rotate(90deg);
+    transition: all 0.7s ease-in-out;
+    opacity: 1;
+}
+
+.panel-heading-inactive {
+    color: #fff;
+    opacity: 0;
+    transition: all 0.7s ease-in-out;
+    font-size: 0.1rem;
+}

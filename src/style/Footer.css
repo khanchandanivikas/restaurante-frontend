@@ -1,0 +1,83 @@
+/* footer */
+footer {
+    background-color: #1a1915;
+    color: #fff;
+    width: 100%; 
+}
+
+/* container del texto */
+.footer-info-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    justify-content: space-evenly;
+    text-align: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* texto del footer */
+/* los parrafos */
+.footer-parrafo {
+    color: #bababa;
+    font-weight: 400;
+    font-size: 0.95rem;
+    margin: 1rem;
+}
+
+/* los headings del footer */
+.heading-footer {
+    margin: 1rem;
+}
+
+/* grid del tarjetas */
+.tarjetas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* imagen del tarjetas */
+.imagenes-tarjetas {
+    max-width: 175px;
+    padding-top: 40px;
+}
+
+/* vinculos del social media */
+.social {
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 5px 10px;
+}
+
+.fa-facebook:hover {
+    color: #4267b2;
+}
+
+.fa-instagram:hover {
+    color: #ff6d00;
+}
+
+.fa-twitter-square:hover {
+    color: #1da1f2;
+}
+
+.fa-pinterest:hover {
+    color: #e60023;
+}
+
+.copyright {
+    font-weight: 400;
+    font-size: 0.8rem;
+    margin: 1rem;
+}
+
+/* newsletter input*/
+#newsletter {
+    border: none;
+    border-radius: 50px;
+    padding: 10px;
+    text-align: center;
+    width: 10rem;
+    outline: none;
+}

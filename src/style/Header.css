@@ -1,0 +1,86 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.856);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    backdrop-filter: blur(5px);
+}
+
+/* vinculos del header */
+.vinculo-header {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.95rem;
+    text-align: center;
+    color: #252525;
+    padding: 1.85rem;
+}
+
+/* vinculos de header animacion*/
+.vinculo-header:hover {
+    color: #9a1d1f;
+    border-bottom: 4px solid #9a1d1f;
+}
+
+/* logo del header */
+.logo {
+    max-width: 150px;
+    min-width: 130px;
+    margin: 2px 7rem;
+}
+
+/* hamburger icono */
+.bars {
+    display: none;
+}
+
+/* container del icono */
+.carrito {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    padding: 1rem 2rem;
+}
+
+.fa-shopping-bag {
+    color: #9a1d1f;
+    font-size: 1.5rem;
+    background-color: rgba(209, 207, 207, 1);
+    border-radius: 50%;
+    padding: 0.5rem;
+    cursor: pointer;
+    position: relative;
+}
+
+.carrito-length {
+    position: absolute;
+    text-decoration: none;
+    background-color: #000;
+    border-radius: 50%;
+    padding: 1px 5px;
+    color: #fff;
+    font-size: 0.82rem;
+}
+
+@media only screen and (max-width: 1200px) {
+    .logo {
+        margin: 2px auto;
+    }
+}
+
+@media only screen and (max-width: 825px) {
+    .vinculo-header {
+        display: none;
+    }
+
+    .bars {
+        display: block;
+    }
+}

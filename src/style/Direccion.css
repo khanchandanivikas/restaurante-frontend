@@ -1,0 +1,76 @@
+/* container del informacion adicional horario y direccion*/
+.horario-container {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* container del horario */
+.horario-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px dashed #9a1d1f;
+    padding-bottom: 1rem;
+    min-width: 22rem;
+    max-width: 25rem
+}
+
+#datos-container {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#datos-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px dashed #9a1d1f;
+    padding: 50px;
+    min-width: 20rem;
+    max-width: 20rem
+}
+
+/* container del horario*/
+.horas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    margin-top: -2rem;
+}
+
+/* parrafos del horario y direccion */
+.hora {
+    color: #1d1d1d;
+    font-weight: 400;
+    font-size: 0.95rem;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin: 0.95rem;
+}
+
+/* container del maps y direccion */
+.direccion {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem;
+}
+
+.fa-map-marker-alt,
+.fa-phone-alt,
+.fa-envelope {
+    color: #9a1d1f;
+}
+
+@media only screen and (max-width: 750px) {
+    .direccion {
+        flex-direction: column;
+    }
+}

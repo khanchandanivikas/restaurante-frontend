@@ -1,0 +1,58 @@
+/* el componente */
+.hamburger-menu {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.65);
+    height: 100vh;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    transition: all 0.7s ease-in-out;
+    transform: translateY(0);
+    margin-top: 5.65rem;
+    backdrop-filter: blur(5px);
+    z-index: -1;
+}
+
+.hamburger-menu-hide {
+    position: fixed;
+    background-color: #fff;
+    z-index: 10;
+    height: 100vh;
+    top: 0;
+    width: 100vw;
+    transition: all 0.7s ease-in-out;
+    transform: translateY(-150%);
+    z-index: -1;
+}
+
+/* el container del menu */
+.hamburger-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    z-index: -1;
+}
+
+/* los vinculos del menu hamburger */
+.vinculo-hamburger {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.95rem;
+    text-align: center;
+    color: #252525;
+    padding: 1rem;
+}
+
+.vinculo-hamburger:hover {
+    color: #9a1d1f;
+    border-bottom: 4px solid #9a1d1f;
+}
+
+li {
+    list-style-type: none;
+}
