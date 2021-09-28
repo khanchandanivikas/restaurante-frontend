@@ -237,7 +237,7 @@ function App() {
             />
           </Route>
           <Route path="/blog">
-            <Blog key={blogs.id} blogs={blogs} />
+            <Blog blogs={blogs} />
           </Route>
           <Route path="/reserva">
             <Reserva />
@@ -265,7 +265,6 @@ function App() {
               handleAddProduct={handleAddProduct}
               handleRemoveProduct={handleRemoveProduct}
               handleCartClearance={handleCartClearance}
-              key={cartItems._id}
               cartItems={cartItems}
               handleCheckout={handleCheckout}
               token={token}
