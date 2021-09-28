@@ -237,7 +237,7 @@ function App() {
             />
           </Route>
           <Route path="/blog">
-            <Blog key={blogs._id} blogs={blogs} />
+            <Blog key={blogs.id} blogs={blogs} />
           </Route>
           <Route path="/reserva">
             <Reserva />
