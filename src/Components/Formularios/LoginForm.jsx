@@ -21,7 +21,7 @@ const LoginForm = (props) => {
         password: data.password,
       })
       .then((response) => {
-        console.log(response);
+        // console.log(response);
         accesoGestionar(response.data);
         history.push("/personal");
         swal(

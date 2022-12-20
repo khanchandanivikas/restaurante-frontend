@@ -16,9 +16,9 @@ const Newsletter = () => {
       .post(process.env.REACT_APP_BACKEND_URL + "/api/newsletter", {
         email: data.email,
       })
-      .then((response) => {
+      .then(() => {
         cogoToast.success("Ha sido suscrito a nuestro boletín informativo");
-        console.log(response);
+        // console.log(response);
       })
       .catch((error) => {
         console.log(error);

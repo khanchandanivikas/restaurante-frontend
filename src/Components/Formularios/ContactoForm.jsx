@@ -23,9 +23,9 @@ const ContactoForm = () => {
         correo: data.correo,
         mensaje: data.mensaje,
       })
-      .then((response) => {
-        console.log("contacto Correcto");
-        console.log(response);
+      .then(() => {
+        // console.log("contacto Correcto");
+        // console.log(response);
         history.push("/inicio");
         cogoToast.success("Se ha enviado su mensaje");
       })

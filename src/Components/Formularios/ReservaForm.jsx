@@ -23,9 +23,9 @@ const ReservaForm = () => {
         hora: data.hora,
         comensales: data.comensales,
       })
-      .then((response) => {
-        console.log("Reserva realizada");
-        console.log(response);
+      .then(() => {
+        // console.log("Reserva realizada");
+        // console.log(response);
         history.push("/inicio");
         cogoToast.success("Se ha realizado la reserva");
       })

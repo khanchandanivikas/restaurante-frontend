@@ -72,8 +72,8 @@ function App() {
           },
         }
       )
-      .then((response) => {
-        console.log(response);
+      .then(() => {
+        // console.log(response);
         localStorage.setItem("datosUsuario", JSON.stringify({}));
         localStorage.setItem("cart", JSON.stringify([]));
         setDatos({});
@@ -138,8 +138,8 @@ function App() {
           },
         }
       )
-      .then((response) => {
-        console.log(response);
+      .then(() => {
+        // console.log(response);
         setCartItems([]);
         localStorage.setItem("cart", JSON.stringify([]));
         cogoToast.success(

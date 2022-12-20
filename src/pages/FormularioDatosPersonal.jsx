@@ -33,9 +33,9 @@ const FormularioDatosPersonal = (props) => {
           },
         }
       )
-      .then((response) => {
-        console.log("dato creado");
-        console.log(response);
+      .then(() => {
+        // console.log("dato creado");
+        // console.log(response);
         history.push("/personal");
       })
       .catch((error) => {

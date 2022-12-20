@@ -57,8 +57,8 @@ const ModificarDatos = (props) => {
           },
         }
       );
-      const datos = request.data;
-      console.log(datos);
+      // const datos = request.data;
+      // console.log(datos);
       setClose();
       cogoToast.success("Se han modificado correctamente los datos.");
     } catch (error) {
