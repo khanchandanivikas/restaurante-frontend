@@ -40,7 +40,7 @@ const ModificarDatos = (props) => {
   const handleModificarDato = async (e) => {
     e.preventDefault();
     try {
-      const request = await axios.patch(
+      await axios.patch(
         process.env.REACT_APP_BACKEND_URL + `/api/datos/${dato._id}`,
         {
           region: nuevoRegion,
